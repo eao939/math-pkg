@@ -1,5 +1,5 @@
 """
-Module containing basic math operations 
+Module containing function to add two numbers.
 """
 
 def add_numbers(a, b):
