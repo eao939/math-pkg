@@ -2,29 +2,29 @@
 
 |        |        |
 |--------|--------|
-| Package | [![Latest PyPI Version](https://img.shields.io/pypi/v/math-pkg.svg)](https://pypi.org/project/math-pkg/) [![Supported Python Versions](https://img.shields.io/pypi/pyversions/math-pkg.svg)](https://pypi.org/project/math-pkg/)  |
+| TestPypi Package | [![Latest TestPyPI Version](https://img.shields.io/pypi/v/math-pkg.svg)](https://test.pypi.org/project/math_pkg/) 
 | Meta   | [![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) |
 
-*TODO: the above badges that indicate python version and package version will only work if your package is on PyPI.
-If you don't plan to publish to PyPI, you can remove them.*
+Note: math-pkg was only published to TestPyPi
 
-math-pkg is a project that (describe what it does here).
+math-pkg is a project that has functions for basic math operations.
 
 ## Get started
 
 You can install this package into your preferred Python environment using pip:
 
 ```bash
-$ pip install math-pkg
+pip install -i https://test.pypi.org/simple/ math_pkg
 ```
-
-TODO: Add a brief example of how to use the package to this section
 
 To use math-pkg in your code:
 
 ```python
->>> import math-pkg
->>> math-pkg.hello_world()
+
+>>> from math_pkg.square_number import square_number
+>>> square_number(3)
+
+
 ```
 
 ## Copyright
