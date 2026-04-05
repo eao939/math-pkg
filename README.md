@@ -2,12 +2,14 @@
 
 |        |        |
 |--------|--------|
-| TestPypi Package | [![Latest TestPyPI Version](https://img.shields.io/pypi/v/math-pkg.svg)](https://test.pypi.org/project/math_pkg/) 
+| TestPypi Package | [![TestPyPI Version](https://img.shields.io/pypi/v/math-pkg?index-url=https://test.pypi.org/simple/)](https://test.pypi.org/project/math-pkg/) 
 | Meta   | [![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) |
 
 Note: math-pkg was only published to TestPyPi
 
 math-pkg is a project that has functions for basic math operations.
+
+Attribute: [pyOpenSci](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)
 
 ## Get started
 
@@ -23,6 +25,10 @@ To use math-pkg in your code:
 
 >>> from math_pkg.square_number import square_number
 >>> square_number(3)
+
+
+>>> from math_pkg.subtract_numbers import subtract_numbers
+>>> subtract_numbers(3, -10)
 
 
 ```
