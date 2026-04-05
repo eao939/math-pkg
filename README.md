@@ -2,7 +2,7 @@
 
 |        |        |
 |--------|--------|
-| TestPypi Package | [![TestPyPI Version](math-pkg)](https://test.pypi.org/project/math-pkg/) 
+| TestPypi Package | [TestPyPI Version](https://test.pypi.org/project/math-pkg/) 
 | Meta   | [![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) |
 
 Note: math-pkg was only published to TestPyPi
